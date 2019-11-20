@@ -1,0 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    09                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: elhampto <elhampto@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/11/17 02:12:29 by ehamp             #+#    #+#              #
+#    Updated: 2019/11/19 14:39:33 by elhampto         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+docker run -it --rm debian
+
+apt update && apt upgrade -y
+apt install git -y
+apt install gcc -y
+apt install clang -y
