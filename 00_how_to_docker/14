@@ -6,8 +6,8 @@
 #    By: elhampto <elhampto@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/19 22:47:16 by elhampto          #+#    #+#              #
-#    Updated: 2019/11/19 22:47:21 by elhampto         ###   ########.fr        #
+#    Updated: 2019/11/20 20:18:02 by elhampto         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-
+docker run -d --name lair -p 8080:80 -link spawning-pool:mysql wordpress

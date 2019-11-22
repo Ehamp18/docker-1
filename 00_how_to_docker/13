@@ -6,8 +6,8 @@
 #    By: elhampto <elhampto@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/19 20:42:31 by elhampto          #+#    #+#              #
-#    Updated: 2019/11/19 20:58:46 by elhampto         ###   ########.fr        #
+#    Updated: 2019/11/21 14:32:17 by elhampto         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-docker volume inspect hatchery
+docker exec spawning-pool env
