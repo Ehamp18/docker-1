@@ -6,8 +6,8 @@
 #    By: elhampto <elhampto@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/21 21:41:27 by elhampto          #+#    #+#              #
-#    Updated: 2019/11/21 21:41:40 by elhampto         ###   ########.fr        #
+#    Updated: 2019/12/10 18:16:35 by elhampto         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-docker kill
+docker kill && docker service rm
