@@ -3,11 +3,11 @@
 #                                                         :::      ::::::::    #
 #    25                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: elhampto <elhampto@student.42.fr>          +#+  +:+       +#+         #
+#    By: ehamp <ehamp@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/12/10 18:37:46 by elhampto          #+#    #+#              #
-#    Updated: 2019/12/16 19:27:11 by elhampto         ###   ########.fr        #
+#    Updated: 2019/12/24 00:15:46 by ehamp            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-docker swarm ls
+docker service ls

@@ -1,0 +1,13 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    28                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: ehamp <ehamp@student.42.fr>                +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/12/24 00:10:24 by ehamp             #+#    #+#              #
+#    Updated: 2019/12/24 00:11:20 by ehamp            ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+docker service create -d --network overmind --name marines --replicas 2 -e OC_USERNAME=me -e OC_PASSWD=lolitsME 42school/marine-squad

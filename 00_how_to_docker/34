@@ -3,11 +3,11 @@
 #                                                         :::      ::::::::    #
 #    34                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: elhampto <elhampto@student.42.fr>          +#+  +:+       +#+         #
+#    By: ehamp <ehamp@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/21 14:58:13 by elhampto          #+#    #+#              #
-#    Updated: 2019/11/21 14:58:26 by elhampto         ###   ########.fr        #
+#    Updated: 2019/12/24 00:15:15 by ehamp            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-docker container rm Aiur
+docker-machine rm -y Aiur

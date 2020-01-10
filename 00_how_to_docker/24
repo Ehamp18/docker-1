@@ -6,8 +6,9 @@
 #    By: ehamp <ehamp@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/30 22:23:45 by ehamp             #+#    #+#              #
-#    Updated: 2019/11/30 22:23:49 by ehamp            ###   ########.fr        #
+#    Updated: 2019/12/24 00:07:32 by ehamp            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
+docker service create --name orbital-command -e RABBITMQ_DEFAULT_USER=me -e RABBITMQ_DEFAULT_PASS=lolitsME --network overmind rabbitmq
 

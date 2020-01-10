@@ -3,11 +3,11 @@
 #                                                         :::      ::::::::    #
 #    31                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: elhampto <elhampto@student.42.fr>          +#+  +:+       +#+         #
+#    By: ehamp <ehamp@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/21 21:41:27 by elhampto          #+#    #+#              #
-#    Updated: 2019/12/10 18:16:35 by elhampto         ###   ########.fr        #
+#    Updated: 2019/12/24 00:14:08 by ehamp            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-docker kill && docker service rm
+docker service rm $(docker service ls -q)
