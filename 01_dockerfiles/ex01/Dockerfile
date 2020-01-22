@@ -1,4 +1,4 @@
-FROM debian 
+FROM debian
 
 ENV TS3SERVER_LICENSE=accept
 
