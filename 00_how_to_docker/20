@@ -6,8 +6,8 @@
 #    By: ehamp <ehamp@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/30 17:39:15 by ehamp             #+#    #+#              #
-#    Updated: 2019/11/30 18:44:40 by ehamp            ###   ########.fr        #
+#    Updated: 2020/01/21 16:55:39 by elhampto         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-docker swarm init --advertise-addr 192.168.99.100
+docker swarm init --advertise-addr $(docker-machine ip Char)
