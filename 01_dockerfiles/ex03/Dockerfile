@@ -9,3 +9,7 @@ RUN apt-get install -y gitlab-ce
 EXPOSE 443 80 22
 
 ENTRYPOINT (/opt/gitlab/embedded/bin/runsvdir-start &) && gitlab-ctl reconfigure && /bin/bash
+
+#When in the gitlab do
+#1 gitlab-ctl reconfigure
+#2 gitlab-ctl start

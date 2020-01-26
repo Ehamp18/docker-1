@@ -1,0 +1,5 @@
+#mkdir goinfre/dot_docker
+#mkdir goinfre/vboxvms
+#mkdir goinfre/vboxvmscp -R .docker/machine goinfre/dot_docker/machine
+#echo mv .docker{,_bak}
+#ln -s goinfre/dot_docker .docker
